@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Menu</title>
+    <style>
+        /* CSS for navigation menu */
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
+    <!-- Content Sections -->
+    <section id="home">
+        <h2>Home Section</h2>
+        <p>Welcome to our home page!</p>
+    </section>
+
+    <section id="about">
+        <h2>About Section</h2>
+        <p>Learn more about us here.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects Section</h2>
+        <p>Explore our projects.</p>
+    </section>
+</body>
+</html>
